@@ -51,8 +51,8 @@ class TextKeyboard(
                 AlphabetKey("G", "="),
                 AlphabetKey("H", "/"),
                 AlphabetKey("J", "#"),
-                AlphabetKey("K", "("),
-                AlphabetKey("L", ")")
+                AlphabetKey("K", "&"),
+                AlphabetKey("L", "；")
             ),
             listOf(
                 CapsKey(),
