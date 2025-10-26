@@ -1,12 +1,13 @@
 name: Publish
 
 on:
+  workflow_dispatch:
   push:
     branches: [master]
     paths:
-      - 'build-logic/**'
-      - 'lib/**'
-      - '.github/workflows/publish.yml'
+      - "build-logic/**"
+      - "lib/**"
+      - ".github/workflows/publish.yml"
 
 jobs:
   publish:
